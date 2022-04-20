@@ -1,5 +1,6 @@
 import Hero from '../components/Hero'
 import Nav from '../components/Nav'
+import Portfolio from '../components/Portfolio'
 import Services from '../components/Services'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
           </p>
         </section>
         <Services />
+        <Portfolio />
       </main>
     </>
   )
