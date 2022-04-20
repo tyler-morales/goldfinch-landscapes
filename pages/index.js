@@ -1,3 +1,4 @@
+import About from '../components/About'
 import Hero from '../components/Hero'
 import Nav from '../components/Nav'
 import Portfolio from '../components/Portfolio'
@@ -17,6 +18,7 @@ export default function Home() {
         </section>
         <Services />
         <Portfolio />
+        <About />
       </main>
     </>
   )
