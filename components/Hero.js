@@ -24,9 +24,11 @@ export default function Hero() {
         <p className="mb-4 text-4xl font-bold text-center text-white md:text-left">
           Landscape Maintenance & Design/ Builds
         </p>
-        <button className="w-full px-4 py-2 rounded-md bg-secondary">
+        <a
+          href="#contact"
+          className="w-full px-4 py-2 text-center rounded-md bg-secondary">
           Free Estimate
-        </button>
+        </a>
       </div>
     </section>
   )

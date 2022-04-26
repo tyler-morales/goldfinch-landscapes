@@ -16,9 +16,11 @@ export default function Services() {
             <li>Flexible scheduling (weekly or bi-monthly visits)</li>
             <li>Comprehensive maintenance packages</li>
           </ul>
-          <button className="w-full py-2 mt-10 rounded-md text-primary bg-secondary">
+          <a
+            href="#contact"
+            className="block w-full py-2 mt-10 text-center rounded-md text-primary bg-secondary">
             Get Your Quote
-          </button>
+          </a>
         </div>
 
         {/* Design/ Build */}
@@ -31,9 +33,11 @@ export default function Services() {
             <li>Flexible scheduling (weekly or bi-monthly visits)</li>
             <li>Comprehensive maintenance packages</li>
           </ul>
-          <button className="w-full py-2 mt-10 rounded-md text-primary bg-secondary">
+          <a
+            href="#contact"
+            className="block w-full py-2 mt-10 text-center rounded-md text-primary bg-secondary">
             Get Your Quote
-          </button>
+          </a>
         </div>
       </div>
     </section>
