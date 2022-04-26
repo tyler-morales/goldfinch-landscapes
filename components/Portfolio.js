@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Portfolio() {
   return (
-    <section className="my-28">
+    <section className="my-28" id="portfolio">
       <h2 className="mb-8 text-3xl font-bold text-center text-primary">
         Our latest projects
       </h2>

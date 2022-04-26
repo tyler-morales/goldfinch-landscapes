@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Services() {
   return (
-    <section className="my-28">
+    <section className="my-28" id="services">
       <h2 className="mb-8 text-3xl font-bold text-center text-primary">
         Design your custom service
       </h2>
