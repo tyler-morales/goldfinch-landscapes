@@ -22,7 +22,6 @@ export default function About() {
       <div className="grid gap-8 mt-8 md:grid-cols-3 md:flex-row">
         <Image
           src="/images/team.jpg"
-          placeholder="blur"
           width={300}
           height={200}
           layout="responsive"
@@ -31,7 +30,6 @@ export default function About() {
         />
         <Image
           src="/images/grady.jpg"
-          placeholder="blur"
           width={300}
           height={300}
           layout="responsive"
@@ -40,7 +38,6 @@ export default function About() {
         />
         <Image
           src="/images/karl.jpg"
-          placeholder="blur"
           width={300}
           height={200}
           layout="responsive"

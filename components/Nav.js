@@ -39,7 +39,7 @@ export default function Nav() {
       <div className="flex flex-col items-center justify-between max-w-5xl px-5 m-auto lg:flex-row">
         {/* Page links */}
         {(toggleMenu || screenWidth > 1024) && (
-          <Link href="/episodes">
+          <Link href="#services">
             <a className="w-full px-4 py-4 text-lg text-center text-white transition-all border-b-2 border-gray-200 hover:text-secondary lg:border-0">
               Services
             </a>
@@ -47,7 +47,7 @@ export default function Nav() {
         )}
 
         {(toggleMenu || screenWidth > 1024) && (
-          <Link href="/stations">
+          <Link href="#portfolio">
             <a className="w-full px-4 py-4 text-lg text-center text-white transition-all border-b-2 border-gray-200 hover:text-secondary lg:border-0">
               Portfolio
             </a>
@@ -76,14 +76,14 @@ export default function Nav() {
         </div>
 
         {(toggleMenu || screenWidth > 1024) && (
-          <Link href="/blog">
+          <Link href="#about">
             <a className="w-full px-4 py-4 text-lg text-center text-white transition-all border-b-2 border-gray-200 hover:text-secondary lg:border-0">
               About
             </a>
           </Link>
         )}
         {(toggleMenu || screenWidth > 1024) && (
-          <Link href="/contact">
+          <Link href="#contact">
             <a className="w-full px-4 py-4 text-lg text-center text-white transition-all border-b-2 border-gray-200 hover:text-secondary lg:border-0">
               Contact
             </a>
