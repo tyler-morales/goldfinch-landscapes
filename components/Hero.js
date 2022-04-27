@@ -10,6 +10,7 @@ export default function Hero() {
       <div className="md:p-6">
         <Image
           src="/images/hero.png"
+          placeholder="blur"
           // height={screenWidth > 640 ? '400px' : '700'}
           height={400}
           width={1000}

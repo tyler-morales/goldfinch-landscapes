@@ -11,6 +11,7 @@ export default function Portfolio() {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <Image
           src="/images/hero.png"
+          placeholder="blur"
           width={900}
           height={500}
           alt="1"
@@ -18,6 +19,7 @@ export default function Portfolio() {
         />
         <Image
           src="/images/project_02.jpg"
+          placeholder="blur"
           width={900}
           height={500}
           alt="1"
@@ -25,6 +27,7 @@ export default function Portfolio() {
         />
         <Image
           src="/images/project_03.jpg"
+          placeholder="blur"
           width={900}
           height={500}
           alt="1"
@@ -32,6 +35,7 @@ export default function Portfolio() {
         />
         <Image
           src="/images/project_04.jpg"
+          placeholder="blur"
           width={900}
           height={500}
           alt="1"
