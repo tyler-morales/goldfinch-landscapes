@@ -10,28 +10,28 @@ export default function Portfolio() {
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <Image
-          src="/../public/images/hero.png"
+          src="/images/hero.png"
           width={900}
           height={500}
           alt="1"
           className="object-cover"
         />
         <Image
-          src="/../public/images/project_02.jpg"
+          src="/images/project_02.jpg"
           width={900}
           height={500}
           alt="1"
           className="object-cover object-top"
         />
         <Image
-          src="/../public/images/project_03.jpg"
+          src="/images/project_03.jpg"
           width={900}
           height={500}
           alt="1"
           className="object-cover"
         />
         <Image
-          src="/../public/images/project_04.jpg"
+          src="/images/project_04.jpg"
           width={900}
           height={500}
           alt="1"

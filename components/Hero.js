@@ -9,7 +9,7 @@ export default function Hero() {
     <section className="relative">
       <div className="md:p-6">
         <Image
-          src="/../public/images/hero.png"
+          src="/images/hero.png"
           // height={screenWidth > 640 ? '400px' : '700'}
           height={400}
           width={1000}
