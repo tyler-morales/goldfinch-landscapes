@@ -29,9 +29,9 @@ export default function Services() {
             Design/ Build
           </h3>
           <ul className="flex flex-col gap-2 ml-4 text-white list-disc">
-            <li>Zero stress lawn maintenance</li>
-            <li>Flexible scheduling (weekly or bi-monthly visits)</li>
-            <li>Comprehensive maintenance packages</li>
+            <li>Custom designed projects</li>
+            <li>Builds constructed from our designers</li>
+            <li>Brought to life</li>
           </ul>
           <a
             href="#contact"
